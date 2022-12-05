@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Dec  5 11:11:41 2022
-
-@author: s1995754
-"""
 import re
 with open('cleaning_pairs.txt','r') as cp:
     full_contain=list()
@@ -17,7 +10,7 @@ with open('cleaning_pairs.txt','r') as cp:
         else:
             count=count
 
-
+            
 with open('cleaning_pairs.txt','r') as cp:
     no_contain=list()
     count=0
@@ -29,6 +22,4 @@ with open('cleaning_pairs.txt','r') as cp:
             count=count
             no_contain.append(line.strip())
         else:
-            count=count+1
-            
-         
+            count=count+1      
