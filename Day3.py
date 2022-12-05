@@ -9,7 +9,8 @@ with open('item_type.txt','r') as items:
             common = ord(common[2]) - 96
         baglist.append(common)
 sum(baglist)
-                
+            
+    
 with open('badges.txt','r') as badges:
     badgelist=list()
     counter=0
