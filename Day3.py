@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Dec  4 22:02:07 2022
-
-@author: s1995754
-"""
-
 with open('item_type.txt','r') as items:
     baglist=list()
     for line in items:
@@ -16,11 +8,8 @@ with open('item_type.txt','r') as items:
         else:
             common = ord(common[2]) - 96
         baglist.append(common)
-        
 sum(baglist)
-        
-        
-        
+                
 with open('badges.txt','r') as badges:
     badgelist=list()
     counter=0
@@ -39,5 +28,4 @@ with open('badges.txt','r') as badges:
                 common = ord(x[2]) - 96
             badgelist.append(common)
             counter = counter + 1
-
 sum(badgelist)
