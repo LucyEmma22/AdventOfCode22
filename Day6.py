@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec  6 10:50:33 2022
-
-@author: s1995754
-"""
-
 with open('communications.txt','r') as communications:
     communications = communications.read().replace('\n', '')
 
